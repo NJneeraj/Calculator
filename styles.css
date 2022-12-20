@@ -1,0 +1,128 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(#037ade 0%, #03e5b7 74%);
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.input-screen {
+  width: 400px;
+  color: palegoldenrod;
+  font-size: 25px;
+  text-align: right;
+  padding-top: 2%;
+  padding-bottom: 0px;
+  height: 90px;
+  background-color: rgb(52, 52, 52);
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-bottom: 2px solid palegreen;
+  margin-top: 40px;
+  margin-left: auto;
+}
+.main-screen {
+  width: 400px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  padding-right: 0px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-top: 0px;
+}
+.rows {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+}
+
+.b-left {
+  border-bottom-left-radius: 20px !important;
+}
+.b-right {
+  border-bottom-right-radius: 20px !important;
+}
+
+.b-topL {
+  border-top-left-radius: 20px !important;
+}
+.b-topR {
+  border-top-right-radius: 20px !important;
+}
+.b-lr {
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+.inputRow {
+  width: 100%;
+  height: 25%;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: center;
+  font-weight: bold;
+  box-sizing: border-box;
+  color: white;
+  text-shadow: 1px 1px 1px palegreen;
+  text-align: center;
+  border: 1px solid white;
+  transition: all 0.2s ease-in-out;
+  background-color: black;
+}
+
+.inputs:hover {
+  color: yellow;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border: 1px solid palegreen;
+  text-shadow: 2px 5px 5px palegreen;
+  border-radius: 10px;
+}
+
+.noMarginPadding {
+  margin: 0px;
+  padding: 0px;
+}
+#equal {
+  font-size: 26px;
+}
+#equal:hover {
+  font-size: 30px;
+}
+#clear {
+  font-size: 22px;
+  color: crimson;
+  text-shadow: none;
+}
+#clear:hover {
+  font-size: 25px;
+  text-shadow: 2px 5px 5px palegreen;
+}
+#back {
+  font-size: 28px;
+  font-weight: bolder;
+  color: yellow;
+  width: 20%;
+}
+
+@media (min-width: 400px) and (min-height: 640px) {
+  .input-screen {
+    width: 100vw;
+    height: 50%;
+    margin-top: 0;
+    font-size: 45px;
+    text-align: end;
+  }
+  .main-screen {
+    width: 100vw;
+    font-size: 45px;
+  }
+}
