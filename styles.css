@@ -81,10 +81,10 @@ body {
 .inputs:hover {
   color: yellow;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   border: 1px solid palegreen;
   text-shadow: 2px 5px 5px palegreen;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .noMarginPadding {
@@ -114,19 +114,43 @@ body {
 }
 
 @media (min-width: 400px) and (min-height: 640px) {
+  body {
+    background: rgb(52, 52, 52);
+    max-height: 640px;
+    overflow: hidden;
+    position: fixed;
+  }
   .input-screen {
     width: 100vw;
     flex-direction: column;
     align-items: flex-end;
-    height: 50%;
-    margin-top: 0;
-    font-size: 45px;
+    height: 110px;
+    margin-bottom: 0px;
+    margin-top: 45vh;
+    font-size: 65px;
     text-align: end;
+    padding-bottom: 10px;
+    border: none;
   }
   .main-screen {
     width: 100vw;
-    font-size: 45px;
-    padding-bottom: 0%;
+    background-color: white;
+    padding-bottom: 1%;
     margin-bottom: 0%;
+  }
+  .inputs {
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 65px;
+    border-radius: 5%;
+    color: black;
+  }
+  .inputs:hover {
+    color: black;
+    background-color: white;
+    font-size: 65px;
+  }
+  .b-left {
+    border: 0%;
   }
 }
