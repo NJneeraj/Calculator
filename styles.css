@@ -114,9 +114,14 @@ body {
 }
 
 @media (min-width: 400px) and (min-height: 640px) {
+  html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
   body {
     background: rgb(52, 52, 52);
-    max-height: 100vh;
+    max-height: 100%;
     overflow: hidden;
     position: fixed;
   }
@@ -124,10 +129,10 @@ body {
     width: 100vw;
     flex-direction: column;
     align-items: flex-end;
-    height: 110px;
+    height: 150px;
     margin-bottom: 0px;
-    margin-top: 45vh;
-    font-size: 65px;
+    margin-top: 43vh;
+    font-size: 75px;
     text-align: end;
     padding-bottom: 10px;
     border: none;
@@ -152,5 +157,19 @@ body {
   }
   .b-left {
     border: 0%;
+  }
+  #back {
+    font-size: 60px;
+    color: black;
+  }
+  #clear,
+  #clear:hover {
+    color: black;
+    font-size: 65px;
+  }
+  #equal,
+  #equal:hover {
+    color: black;
+    font-size: 65px;
   }
 }
