@@ -73,7 +73,7 @@ body {
   color: white;
   text-shadow: 1px 1px 1px palegreen;
   text-align: center;
-  border: 1px solid white;
+  border-right: 1px solid white;
   transition: all 0.2s ease-in-out;
   background-color: black;
 }
@@ -120,40 +120,44 @@ body {
     overflow: hidden;
   }
   body {
-    background: rgb(52, 52, 52);
+    background: white;
     max-height: 100%;
     overflow: hidden;
     position: fixed;
   }
   .input-screen {
     width: 100vw;
+    background: white;
     flex-direction: column;
     align-items: flex-end;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 40vh;
     font-size: 75px;
+    color: black;
     text-align: end;
     padding-bottom: 10px;
     border: none;
   }
   .main-screen {
     width: 100vw;
+    position: sticky;
     background-color: white;
     padding-bottom: 1%;
     margin-bottom: 5%;
   }
   .inputs {
-    background-color: white;
+    background-color: whitesmoke;
     border: 1px solid gray;
     font-size: 65px;
-    border-radius: 5%;
+    border-radius: 10%;
     color: black;
   }
   .inputs:hover {
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
     font-size: 65px;
+    border: 1px solid black;
   }
   .b-left {
     border: 0%;
