@@ -116,7 +116,7 @@ body {
 @media (min-width: 400px) and (min-height: 640px) {
   body {
     background: rgb(52, 52, 52);
-    max-height: 640px;
+    max-height: 100vh;
     overflow: hidden;
     position: fixed;
   }
